@@ -51,9 +51,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox1.AutoWordSelection = true;
-            this.richTextBox1.Location = new System.Drawing.Point(206, 41);
+            this.richTextBox1.Location = new System.Drawing.Point(353, 41);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(285, 422);
+            this.richTextBox1.Size = new System.Drawing.Size(473, 422);
             this.richTextBox1.TabIndex = 1;
             this.richTextBox1.Text = "";
             // 
@@ -63,7 +63,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.textBox1.Location = new System.Drawing.Point(93, 10);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(399, 25);
+            this.textBox1.Size = new System.Drawing.Size(734, 25);
             this.textBox1.TabIndex = 2;
             // 
             // richTextBox2
@@ -72,7 +72,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.richTextBox2.Location = new System.Drawing.Point(12, 469);
             this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(479, 52);
+            this.richTextBox2.Size = new System.Drawing.Size(814, 52);
             this.richTextBox2.TabIndex = 3;
             this.richTextBox2.Text = "";
             // 
@@ -82,14 +82,14 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.treeView1.Location = new System.Drawing.Point(12, 41);
             this.treeView1.Name = "treeView1";
-            this.treeView1.Size = new System.Drawing.Size(188, 422);
+            this.treeView1.Size = new System.Drawing.Size(335, 422);
             this.treeView1.TabIndex = 4;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 533);
+            this.ClientSize = new System.Drawing.Size(839, 533);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.textBox1);

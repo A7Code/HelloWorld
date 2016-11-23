@@ -15,6 +15,10 @@ namespace HalloWorld
         {
             _messageBox.Text = "";
         }
+        public static void Show(string _inputMessage)
+        {
+            _messageBox.Text = _inputMessage;
+        }
 
         static List<string> _wrong = new List<string>();
         public static int WrongMessageCount

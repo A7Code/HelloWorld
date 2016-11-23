@@ -9,7 +9,7 @@ namespace HalloWorld
     class a7Content
     {
         string _content;
-        public a7Content(ref string _inputHTML)
+        public a7Content(string _inputHTML)
         {
 
         }

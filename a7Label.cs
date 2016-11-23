@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace HalloWorld
 {
-    class a7Label : a7Content
+    class a7Label
     {
-        public a7Label(ref string _inputHTML)
-            : base(ref _inputHTML)
+        string _label;
+
+        public a7Label(string _inputHTML)
         {
 
         }

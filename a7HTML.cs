@@ -18,8 +18,7 @@ namespace HalloWorld
             try
             {
                 setHTML(WebRequest.Create(_inputURL));
-                Message.Clear();
-
+                Message.Show("Success!!");
                 return true;
             }
             catch
@@ -37,9 +36,14 @@ namespace HalloWorld
             _html = readStream.ReadToEnd();
         }
 
-        public string show()
+        public string showA()
         {
             return _html;
+        }
+
+        public List<string> showB()
+        {
+            return a7HTMLString.cutHtmlString(ref _html);
         }
     }
 }
